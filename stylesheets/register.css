@@ -1,0 +1,115 @@
+.register-container{
+    text-align: center;
+    margin-top: 5%;
+}
+.register-heading{
+    font-family: Arial;
+}
+.register-fullname{
+    border: 2px solid black;
+    width: 200px;
+    height: 35px;
+    margin: 15px 90px 25px 25px;
+    /* border: 2px solid #ADD8E6; */
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.register-email{
+    border: 2px solid black;
+    width: 200px;
+    height: 35px;
+    margin: 10px 90px 25px 25px;
+    /* border: 2px solid #ADD8E6; */
+    border-radius: 5px;
+    padding-left: 15px;  
+}
+.register-password{
+    border: 2px solid black;
+    width: 200px;
+    height: 35px;
+    margin: 10px 90px 25px 25px;
+    /* border: 2px solid #ADD8E6; */
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.register-re-password{
+    border: 2px solid black;
+    width: 200px;
+    height: 35px;
+    margin: 10px 160px 25px 25px;
+    /* border: 2px solid #ADD8E6; */
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.register-save-btn{
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width:105px;
+    height: 35px;
+    margin: 10px 0 25px 0;
+    font-weight: bold;
+    color: black;
+    background-color: aqua;
+    /* transition: 0.4s ease; */
+}
+/* .register-save-btn:hover{
+    color: black;
+    background-color: green;
+} */
+.register-btn-container{
+    margin-top: 35px;
+}
+
+.register-save-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.label{
+    font-family: Arial;
+    font-weight: bold;
+}
+.register-fullname::placeholder{
+    font-family: Arial;
+    font-weight: bold;
+}
+.register-email::placeholder{
+    font-family: Arial;
+    font-weight: bold;
+}
+.register-password::placeholder{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+
+.register-re-password::placeholder{
+    font-family: Arial;
+    font-weight: bold;
+}
+.label-register-email{
+    margin-right: 0%;
+    margin-left: 33px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.label-register-re-password{
+    margin-right: 0%;
+    margin-right: 0px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.register-page-container{
+    text-align: center;
+    margin-top: 7%;
+}
+.register-page-heading h3{
+    font-family: Arial;
+}
+.register-page-heading p{
+    font-family: Arial;
+    margin-top: 35px;
+}

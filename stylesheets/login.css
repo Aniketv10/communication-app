@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-container{
+    text-align: center;
+    margin-top: 10%;
+    font-family: Arial;
+}
+.input-email{
+    width: 200px;
+    height: 35px;
+    margin: 45px 60px 25px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+    
+}
+.input-email::placeholder{
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+.input-password{
+    width: 200px;
+    height: 35px;
+    margin: 15px 90px 25px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.input-password::placeholder{
+    font-family: Arial;
+    font-weight: bold;
+}
+.label-email{
+    margin-right: 2%;
+
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.label-password{
+    font-family: Arial;
+    font-weight: bold;
+}
+.login-save-btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width:105px;
+    height: 35px;
+    margin: 10px 0 25px 0;
+    font-weight: bold;
+    color: black;
+    background-color: aqua;
+    /* transition: 0.4s ease; */
+}
+/* .login-save-btn:hover{
+    color: black;
+    background-color: green;
+} */
+.login-btn-container{
+    margin-top: 35px;
+}
+.login-save-btn a{
+    text-decoration: none;
+    color: black;
+}
