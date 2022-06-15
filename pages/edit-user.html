@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit-user</title>
+    <link rel="stylesheet" href="../stylesheets/edit-user.css"></link>
+</head>
+<body>
+    <div>
+        <div  class="login-success-container" >
+            <div class="col-1">
+                <a href="log-out.html"><button class="log-out">Log Out</button></a>
+            </div>
+            <div class="col-2">
+                <a href="manage-user.html"><button class="manage-user">Manage Users</button></a>
+            </div>
+            <div class="col-3">
+                <a href="group-chat.html"><button class="group-chat">Group Chat</button></a>
+            </div>
+        </div>
+        <div class="edit-user-container">
+            <h1>Edit User Information</h1>
+            <label class="label-email">Full Name</label>
+            <input type="text"  id="name" class="input-name" placeholder="Anne Hunter" readonly> </input><br>
+            <label class="label-password">Email</label>
+            <input type="email"  id="email" class="input-email" placeholder="anne.huntermail.com" readonly></input>
+            <div class="login-btn-container">
+            <button type="submit" class="login-save-btn"><a href="manage-user.html"><h3>Save</h3></a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
