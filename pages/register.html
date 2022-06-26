@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>register</title>
-    <link rel="stylesheet" href="../stylesheets/register.css"></link>
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="/stylesheets/register.css">
+
 </head>
+
+<script src="/javascript/register.js"></script>
+
 <body>
-    <form class="register-container">
-        <div>
-            <h2 class="register-heading">Register</h2>
-        </div>
-        <div>
-            <label class="label">Full Name</label>
-            <input type="text" placeholder="Enter Full Name" id="name" class="register-fullname"></input><br>
-            <label class="label-register-email">Email</label>
-            <input type="email" placeholder="type your email" id="password" class="register-email"></input><br>
-            <label class="label">Password</label>
-            <input type="email" placeholder="type your email" id="email" class="register-password"></input><br>
-            <label class="label-register-re-password">Confirm Password</label>
-            <input type="password" placeholder="Re-type your password" id="password" class="register-re-password"></input>
-        </div>
-        <div>
-            <button class="register-save-btn"><a href="register-page.html">Register</button></a>
-        </div>
-    </form>
+    <div class="register">
+
+        <h1 id="reg">Register</h1>
+        <form id="regForm" method="get" name="regsForm" action="/Pages/register-success.html" onsubmit=" return registerData()">
+
+            <label class="label1">Full Name</label>
+            <input type="text" placeholder="Enter your Name" id="name" class="input1"><br>
+            <span id="fullName"></span><br>
+
+            <label class="label2">Email</label>
+            <input type="email" placeholder="Enter your email " id="email" class="input2"><br>
+            <span id="mail"></span><br>
+
+            <label class="label3">Password</label>
+            <input type="text" placeholder="Enter password" id="pwd" class="input3"><br>
+            <span id="password"></span><br>
+
+            <label class="label4">Confirm Password</label>
+            <input type="text" placeholder="Re-enter password " id="confirm-pwd" class="input4"><br>
+            <span id="confirmPass"></span><br>
+
+            <button type="submit" class="regBtn">Register</button>
+        </form>
+
+    </div>
 </body>
+
 </html>
-
-
-<!--  -->

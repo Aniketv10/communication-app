@@ -1,109 +1,191 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0px;
 }
-.login-success-container{
-    float: left;
-    padding-bottom: 35px;
+.nav{
+  height: 50px;
+  margin-left: 8px;
+  border: 3px solid transparent;
+  margin-bottom: 15px;
+  /* width: 100%; */
 }
-.login-success-container div{
-    float: right;
-    box-sizing: border-box;
-    /* border: 2px solid black; */
-    width: 455px;
-    height: 45px;
-    text-align: center;
-    /* list-style: none; */
+.btn1{
+  height: 60px;
+  width: 445px;
+  float: left;
+  padding-top: 5px;
+  text-align: center;
+  border: 3px solid;
+  background: lightgray;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  cursor: pointer;
 }
-.group-chat{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 45px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-right:1px solid ;
-    background-color:lightgrey;
-    cursor: pointer;
-    font-size: large;
+.btns1{
+  height: 60px;
+  width: 445px;
+  float: left;
+  padding-top: 5px;
+  text-align: center;
+  border: 3px solid;
+  /* border-radius: 4px; */
+  border-left: 0px solid;
+  background: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  cursor: pointer;
 }
-.manage-user{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 101%;
-    height: 45px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-left: 1px solid black;
-    background-color:white;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: large;
-    
-}
-.log-out{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 45px;
-    border-right:1px solid ;
-    background-color:lightgrey;
-    cursor: pointer;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-size: large;
+.btns2{
+  height: 60px;
+  width: 445px;
+  float: left;
+  padding-top: 5px;
+  text-align: center;
+  border: 3px solid;
+  /* border-radius: 4px; */
+  border-left: 0px solid;
+  background: lightgray;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  cursor: pointer;
 }
 
-.users-list-title{
-    margin:0 0 15px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+.col1 a,.col2 a,.col3 a{
+  text-decoration: none;
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    border:2px solid black;
-    font-size: large;
-    width:100%;
-    
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
 
-  td a{
-    text-decoration: none;
-    color: black;
-  }
-  td {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    
-    text-align: left;
-    padding: 8px;
-    
-  }
-  .td1{
-  width:160px;
-  height: 12px;
-  }
-  .td2{
-  text-align:center;
-  width:160px;
-  height: 12px;
-  
-  }
-  .td3{
-  text-align:center;
-  height: 12px;
-  cursor:pointer;
-  width:90px;
-  }
-  
-  th {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    text-align: left;
-    padding: 8px;
-    background-color:lightgrey;
-  }
-  
-  tr:nth-child(odd) {
-    background-color: #dddddd;
-  }
+.btns2 {
+  /* background-color: white; */
+  border-radius: 4px;
+  /* border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; */
+}
+
+.main {
+  height: 670px;
+  width: 100%;
+  border: 0px solid;
+  border-radius: 4px;
+  border-top: 0px;
+}
+
+#user {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+/* ------------ styling of table ------------- */
+.tableUser {
+  /* height: 500px; */
+  width: 100%;
+  border: 3px solid ;
+  border-radius: 8px;
+  border-top: 2px solid;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tableUser td{
+  border-right: 3px solid black;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#tr1{
+  background: rgb(195, 194, 194);
+}
+
+/* .tableUser td:last-of-type {
+  border-right: none;
+} */
+
+tr:nth-child(odd) {
+  background-color: rgb(236, 234, 234);
+  height: 34px;
+}
+
+tr:nth-child(even) {
+  height: 34px;
+}
+
+.tdmail{
+  text-align: center;
+}
+
+.tdname{
+  padding-left: 5px;
+  width: 600px;
+}
+
+.editbtn,.delbtn{
+  border: transparent;
+  background: transparent;
+  font-size: 18px;   
+}
+
+p{
+  text-align: center;
+}
+
+#img{
+  height: 60px;
+  width: 60px;
+  margin-left: 90px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.modal-backdrop {
+  background-color: transparent;
+}
+
+.modal-div{
+  height: 70px;
+  width: 350px;
+  margin: auto;
+  padding-top: 40px;
+}
+.modal-div button{
+  border: 2px solid;
+}
+
+.modalbtn1{
+  width: 100px;
+  border-radius: 8px;
+  background: white;
+  /* outline: blue; */
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.modalbtn2{
+  width: 120px;
+  border-radius: 8px;
+  background: white;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-body b{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+
+.modal-title{
+  margin-left: 105px;
+  font-size: 20px;
+  /* font-weight: bold; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-header{
+  height: 42px;
+}
+

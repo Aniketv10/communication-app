@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>edit-user</title>
-    <link rel="stylesheet" href="../stylesheets/edit-user.css"></link>
+    <title>Edit User Page</title>
+
+    <link rel="stylesheet" href="/stylesheets/edit-user.css">
+
 </head>
+
 <body>
-    <div>
-        <div  class="login-success-container" >
-            <div class="col-1">
-                <a href="log-out.html"><button class="log-out">Log Out</button></a>
-            </div>
-            <div class="col-2">
-                <a href="manage-user.html"><button class="manage-user">Manage Users</button></a>
-            </div>
-            <div class="col-3">
-                <a href="group-chat.html"><button class="group-chat">Group Chat</button></a>
-            </div>
+    <div class="nav">
+
+        <div class="col1">
+            <a href="/pages/group-chat.html"><button class="btn1"> Group Chat</button></a>
         </div>
-        <div class="edit-user-container">
-            <h1>Edit User Information</h1>
-            <label class="label-email">Full Name</label>
-            <input type="text"  id="name" class="input-name" placeholder="Anne Hunter" readonly> </input><br>
-            <label class="label-password">Email</label>
-            <input type="email"  id="email" class="input-email" placeholder="anne.huntermail.com" readonly></input>
-            <div class="login-btn-container">
-            <button type="submit" class="login-save-btn"><a href="manage-user.html"><h3>Save</h3></a></button>
-            </div>
+
+        <div class="col2">
+            <a href="/pages/manage-user.html"><button class="btns1">Manage Users</button></a>
         </div>
+
+        <div class="col3">
+            <a href="/pages/log-out.html"><button class="btns2">Logout</button></a>
+        </div>
+
     </div>
+
+    <div class="edit">
+        <h1 id="editH1">Edit User Information</h1>
+
+        <label id="editN">Full Name</label>
+        <input type="text" placeholder="Anne Hunter " id="input1"><br>
+
+        <label id="mail">Email</label>
+        <input type="email" placeholder="anne.hunter@mail.com" id="input2"><br>
+
+        <a href="/pages/manage-user.html">
+            <button id="saveBtn">Save</button>
+        </a>
+
+    </div>
+
 </body>
+
 </html>

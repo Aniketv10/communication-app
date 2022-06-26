@@ -107,12 +107,18 @@ table {
   tr:nth-child(odd) {
     background-color: #dddddd;
   }
-  .delete-user-container{
+
+
+/* Delete User data */
+
+
+.delete-user-container{
     position: relative;
     z-index: 2;
   }
 .login-success-container-1{
     position: absolute;
+
   }
   .delete-box{
     position: absolute;

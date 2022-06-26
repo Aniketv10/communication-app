@@ -1,70 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
+.login {
+    height: 550px;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
 }
-.login-container{
+
+#log {
     text-align: center;
-    margin-top: 10%;
-    font-family: Arial;
+    font-size: 25px;
+    color: black;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.input-email{
-    width: 200px;
-    height: 35px;
-    margin: 45px 60px 25px 0px;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding-left: 15px;
-    
-}
-.input-email::placeholder{
-    font-family: Arial;
-    font-weight: bold;
-    margin-left: 15px;
-    
-}
-.input-password{
-    width: 200px;
-    height: 35px;
-    margin: 15px 90px 25px 25px;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding-left: 15px;
-}
-.input-password::placeholder{
-    font-family: Arial;
-    font-weight: bold;
-}
-.label-email{
-    margin-right: 2%;
 
-    font-family: Arial;
+/*-------------- styling for form label part ----------------*/
+#log1 {
+    font-size: 18px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
 
-}
-.label-password{
-    font-family: Arial;
+#log2 {
+    font-size: 18px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
-.login-save-btn{
-    border: 2px solid black;
-    border-radius: 5px;
+
+/*----------------- styling for form input type part -----------------*/
+#input1 {
+    height: 30px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 37px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+#input2 {
+    height: 30px;
+    width: 230px;
+    margin-top: 5px;
+    margin-left: 37px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+/* ------------ button styling ----------- */
+
+#logBtn {
+    height: 35px;
+    width: 130px;
+    color: black;
+    background: aqua;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 175px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: 3px solid;
     cursor: pointer;
-    width:105px;
-    height: 35px;
-    margin: 10px 0 25px 0;
-    font-weight: bold;
-    color: black;
-    background-color: aqua;
-    /* transition: 0.4s ease; */
 }
-/* .login-save-btn:hover{
-    color: black;
-    background-color: green;
-} */
-.login-btn-container{
-    margin-top: 35px;
-}
-.login-btn-container a{
+
+a {
     text-decoration: none;
-    color: black;
+}
+
+span{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    margin-left: 125px;
 }

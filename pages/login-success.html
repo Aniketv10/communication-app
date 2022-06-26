@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>communication</title>
-    <link rel="stylesheet" href="../stylesheets/login-success.css"></link>
+    <title>Login Success Page</title>
+
+    <link rel="stylesheet" href="/stylesheets/login-success.css">
+
 </head>
 <body>
-    <div>
-        <div  class="login-success-container" >
-                <div class="col-1">
-                    <a href="log-out.html"><button class="log-out">Log Out</button></a>
-                </div>
-                <div class="col-2">
-                    <a href="manage-user.html"><button class="manage-user">Manage Users</button></a>
-                </div>
-                <div class="col-3">
-                    <a href="group-chat.html"><button class="group-chat">Group Chat</button></a>
-                </div>
+    <div class="nav">
+
+        <div class="col1">
+            <a href="/pages/group-chat.html"><button class="btn1"> Group Chat</button></a>
         </div>
-        <div class="login-success-container-1">
-            <h2>Login Successful</h2>
-            <p><span>Welcome !</span> anne.hunter@mail.com </p>
+
+        <div class="col2">
+            <a href="/pages/manage-user.html"><button class="btns">Manage Users</button></a>
         </div>
+
+        <div class="col3">
+            <a href="/pages/log-out.html"><button class="btns">Logout</button></a>
+        </div>
+        
     </div>
+<br>
+    <div class="div2">
+        <h1>Login Successful</h1>
+        <p><b>Welcome !</b> <span id="userEmail"></span></p>
+    </div>
+
+    
+<script src="/javascript/login-success.js"></script>
 </body>
 </html>
