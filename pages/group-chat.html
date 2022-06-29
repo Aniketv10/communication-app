@@ -1,63 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group Chat Page</title>
-
-    <link rel="stylesheet" href="/stylesheets/group-chat.css">
-
-</head>
-
-<body>
-    <div class="nav">
-
-        <div class="col1">
-            <a href="/pages/group-chat.html"><button class="btn1"> Group Chat</button></a>
-        </div>
-
-        <div class="col2">
-            <a href="/pages/manage-user.html"><button class="btns">Manage Users</button></a>
-        </div>
-
-        <div class="col3">
-            <a href="/pages/log-out.html"><button class="btns">Logout</button></a>
-        </div>
-
-    </div>
-    <br>
-    <div>
-        <br>
-
-    <div class="chat1">
-        <h1 id="chatH1"><span>Group Chat </span>
-            <button>&#x2715; </button>
-        </h1>
-    </div>
-
-    <div class="chat2">
-
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
-
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
-
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
-
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
-
-    </div>
-
-    <div class="chat3">
-        <p><b>Anne Hunter </b>
-            <input type="text" placeholder="I am good" id="chatinput">
-            <button id="send">Send</button>
-            <button id="refresh">Refresh</button>
-        </p>
-    </div>
-
-    </div>
-</body>
-
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Group Chat Page</title>
+ 
+     <link rel="stylesheet" href="/stylesheets/group-chat.css">
+ 
+ </head>
+ <!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
+ 
+ <body>
+     <div class="nav">
+ 
+         <div class="col1">
+             <a href="/pages/group-chat.html"><button class="btn1"> Group Chat</button></a>
+         </div>
+ 
+         <div class="col2">
+             <a href="/pages/manage-user.html"><button class="btns">Manage Users</button></a>
+         </div>
+ 
+         <div class="col3">
+             <a href="/pages/log-out.html"><button id="logoutBtn" class="btns">Logout</button></a>
+         </div>
+ 
+     </div>
+     <br>
+     <div class="chat1">
+         <h1 id="chatH1"><span>Group Chat </span>
+             <button>&#x2715; </button>
+         </h1>
+     </div>
+ 
+     <div id="chat2">
+         <ul id="list">
+ 
+         <!-- <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li>
+ 
+         <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li>
+ 
+         <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li>
+ 
+         <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li> -->
+ 
+     </ul>
+ 
+     </div>
+ 
+     <div class="chat3">
+         <p ><b id="Name">Write Here</b>
+             <input type="text" placeholder="I am good" id="chatinput">
+             <button id="send">Send</button>
+             <button id="refresh" onclick="refresh()">Refresh</button>
+         </p>
+     </div>
+ 
+     <div class="chat4">
+     </div>
+ 
+ 
+     </div>
+ 
+ <script src="/javascript/group-chat.js"></script>
+ </body>
+ 
+ </html>

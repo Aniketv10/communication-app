@@ -1,15 +1,16 @@
 *{
     margin: 0px;
-}
-.nav{
+  }
+  .nav{
     height: 50px;
-    margin-left: 4px;
+    margin-left: 8px;
     border: 3px solid transparent;
     margin-bottom: 15px;
-}
-.btn1{
+    /* width: 98%; */
+  }
+  .btn1{
     height: 60px;
-    width: 450px;
+    width: 445px;
     float: left;
     padding-top: 5px;
     text-align: center;
@@ -19,10 +20,10 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     cursor: pointer;
-}
-.btns{
+  }
+  .btns{
     height: 60px;
-    width: 450px;
+    width: 445px;
     float: left;
     padding-top: 5px;
     text-align: center;
@@ -34,11 +35,11 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     cursor: pointer;
-}
-
-.col1 a,.col2 a,.col3 a{
+  }
+  
+  .col1 a,.col2 a,.col3 a{
     text-decoration: none;
-}
+  }
 
 .div2{
     height: 200px;

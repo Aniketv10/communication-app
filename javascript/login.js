@@ -29,7 +29,7 @@ function LoginData() {
     var users = JSON.parse(localStorage.getItem("registerUsers")) ? JSON.parse(localStorage.getItem("registerUsers")) : [];
     // console.log(users);
 
-    if (users.some((user) => user.email == logmail && user.pwd == logpwd)) {
+    if (users.some((user) => user.email == logmail && user.password == logpwd)) {
         window.alert('Login successful')
     }
     else {
@@ -41,6 +41,7 @@ function LoginData() {
 
     var searchName = userData.findIndex((user) => user.email == logmail);
     var loginName = userData[searchName].name;
+    console.log(loginName);
     var loginEmail = userData[searchName].email;
 
     //---- for storing loginUser data into LocalStorage-----
